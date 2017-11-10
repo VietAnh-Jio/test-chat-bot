@@ -39,7 +39,7 @@ app.post('/webhook', function(req, res) {
         if (message.message.text) {
           var text = message.message.text;
           console.log(text); // In tin nhắn người dùng
-          sendMessage(senderId, "JiKi: " + text);
+          sendMessage(senderId, "Chào bạn, mình là Jiki, rất vui được làm quen :)) ");
         }
       }
     }
